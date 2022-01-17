@@ -8,11 +8,16 @@
     --color-light-grey: #dfdfdf;
 }
 
+/* size */
+--size-button: 60px;
+/* animation */
+--size-animation-duration: 300ms;
+ 
 body{
     height: 100vh;
     background-color: var(--color-black);
     display: flex;
-    flex-direction: colomn;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -32,7 +37,11 @@ logo: :hover {
     transform: scale(1.1);
 }
 
-imgbt {
+imgBt {
     width: var(--size-button);
     height: var(--size-button);
+}
+
+colorBtn {
+
 }
